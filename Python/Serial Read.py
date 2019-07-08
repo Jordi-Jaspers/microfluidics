@@ -3,13 +3,15 @@ import csv
 
 file = 'ArduinoData_Jordi_Jaspers.csv'
 
-port = 'com4'
+port = 'COM3'
 baudRate = 9600
 fileMode = 'w'
 
 arduino = serial.Serial(port, baudRate) 
 arduino.flush()
 arduino.reset_input_buffer()
+
+print("Arduino Connected @ COM3!")
 
 with open(file, fileMode, newline = '') as WriteFile:
 	writer = csv.writer(WriteFile)

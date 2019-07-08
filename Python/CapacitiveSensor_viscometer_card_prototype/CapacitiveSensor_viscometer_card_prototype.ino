@@ -8,16 +8,16 @@
  * Receive pin is the sensor pin - try different amounts of foil/metal on this pin
  */
 
-CapacitiveSensor   cs1 = CapacitiveSensor(4,1);   
-CapacitiveSensor   cs2 = CapacitiveSensor(4,2);  
-CapacitiveSensor   cs3 = CapacitiveSensor(4,3);   
-CapacitiveSensor   cs4 = CapacitiveSensor(4,4);     
-CapacitiveSensor   cs5 = CapacitiveSensor(4,5);       
-CapacitiveSensor   cs6 = CapacitiveSensor(4,6);
-CapacitiveSensor   cs7 = CapacitiveSensor(4,7);   
-CapacitiveSensor   cs8 = CapacitiveSensor(4,8);  
-CapacitiveSensor   cs9 = CapacitiveSensor(4,9);   
-CapacitiveSensor   cs10 = CapacitiveSensor(4,10);     
+CapacitiveSensor   cs1 = CapacitiveSensor(2,3);   
+CapacitiveSensor   cs2 = CapacitiveSensor(2,4);  
+CapacitiveSensor   cs3 = CapacitiveSensor(2,5);   
+CapacitiveSensor   cs4 = CapacitiveSensor(2,6);     
+CapacitiveSensor   cs5 = CapacitiveSensor(2,7);       
+CapacitiveSensor   cs6 = CapacitiveSensor(2,8);
+CapacitiveSensor   cs7 = CapacitiveSensor(2,9);   
+CapacitiveSensor   cs8 = CapacitiveSensor(2,10);  
+CapacitiveSensor   cs9 = CapacitiveSensor(2,11);   
+CapacitiveSensor   cs10 = CapacitiveSensor(2,12);     
      
 void setup()                    
 {
